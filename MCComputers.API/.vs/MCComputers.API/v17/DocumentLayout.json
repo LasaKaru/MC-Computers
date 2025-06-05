@@ -1,0 +1,307 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|c:\\users\\user\\source\\repos\\mccomputers\\mccomputers.api\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|solutionrelative:controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|c:\\users\\user\\source\\repos\\mccomputers\\mccomputers.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|c:\\users\\user\\source\\repos\\mccomputers\\mccomputers.api\\dtos\\invoiceitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|solutionrelative:dtos\\invoiceitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|c:\\users\\user\\source\\repos\\mccomputers\\mccomputers.api\\dtos\\invoiceitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|solutionrelative:dtos\\invoiceitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|c:\\users\\user\\source\\repos\\mccomputers\\mccomputers.api\\dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|solutionrelative:dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|c:\\users\\user\\source\\repos\\mccomputers\\mccomputers.api\\dtos\\invoicecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|solutionrelative:dtos\\invoicecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|c:\\users\\user\\source\\repos\\mccomputers\\mccomputers.api\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|c:\\users\\user\\source\\repos\\mccomputers\\mccomputers.api\\migrations\\20250605113439_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|solutionrelative:migrations\\20250605113439_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|c:\\users\\user\\source\\repos\\mccomputers\\mccomputers.api\\models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|solutionrelative:models\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|c:\\users\\user\\source\\repos\\mccomputers\\mccomputers.api\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|solutionrelative:models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|c:\\users\\user\\source\\repos\\mccomputers\\mccomputers.api\\services\\iinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|solutionrelative:services\\iinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|c:\\users\\user\\source\\repos\\mccomputers\\mccomputers.api\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|solutionrelative:services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|c:\\users\\user\\source\\repos\\mccomputers\\mccomputers.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|c:\\users\\user\\source\\repos\\mccomputers\\mccomputers.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5C257D7-8213-429D-B1E3-9DA41672E486}|..\\MCComputers.API.Tests\\MCComputers.API.Tests.csproj|c:\\users\\user\\source\\repos\\mccomputers\\mccomputers.api.tests\\invoicescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\MCComputers.API.Tests\\InvoicesControllerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|c:\\users\\user\\source\\repos\\mccomputers\\mccomputers.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1BBEFF10-6F69-4FEF-B060-844E6F3ED62B}|MCComputers.API.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InvoiceDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\DTOs\\InvoiceDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\InvoiceDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\DTOs\\InvoiceDto.cs",
+              "RelativeToolTip": "DTOs\\InvoiceDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:36:45.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvoiceItemCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\DTOs\\InvoiceItemCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\InvoiceItemCreateDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\DTOs\\InvoiceItemCreateDto.cs",
+              "RelativeToolTip": "DTOs\\InvoiceItemCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:35:37.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InvoicesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Controllers\\InvoicesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InvoicesController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Controllers\\InvoicesController.cs",
+              "RelativeToolTip": "Controllers\\InvoicesController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAgwFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:39:26.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InvoiceCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\DTOs\\InvoiceCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\InvoiceCreateDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\DTOs\\InvoiceCreateDto.cs",
+              "RelativeToolTip": "DTOs\\InvoiceCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:36:00.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InvoiceItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\DTOs\\InvoiceItemDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\InvoiceItemDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\DTOs\\InvoiceItemDto.cs",
+              "RelativeToolTip": "DTOs\\InvoiceItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:36:26.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:28:16.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:54:15.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InvoiceItem.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Models\\InvoiceItem.cs",
+              "RelativeDocumentMoniker": "Models\\InvoiceItem.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Models\\InvoiceItem.cs",
+              "RelativeToolTip": "Models\\InvoiceItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:26:44.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "Models\\Invoice.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Models\\Invoice.cs",
+              "RelativeToolTip": "Models\\Invoice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:26:14.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IInvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Services\\IInvoiceService.cs",
+              "RelativeDocumentMoniker": "Services\\IInvoiceService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Services\\IInvoiceService.cs",
+              "RelativeToolTip": "Services\\IInvoiceService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:37:26.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Services\\InvoiceService.cs",
+              "RelativeDocumentMoniker": "Services\\InvoiceService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Services\\InvoiceService.cs",
+              "RelativeToolTip": "Services\\InvoiceService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:37:51.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-05T11:28:42.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:33:25.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250605113439_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Migrations\\20250605113439_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250605113439_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\Migrations\\20250605113439_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250605113439_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:34:39.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InvoicesControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API.Tests\\InvoicesControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\MCComputers.API.Tests\\InvoicesControllerTests.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API.Tests\\InvoicesControllerTests.cs",
+              "RelativeToolTip": "..\\MCComputers.API.Tests\\InvoicesControllerTests.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAkwEMAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:13:52.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InvoicesControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MCComputers.API.Tests\\InvoicesControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\MCComputers.API.Tests\\InvoicesControllerTests.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MCComputers.API.Tests\\InvoicesControllerTests.cs",
+              "RelativeToolTip": "..\\..\\MCComputers.API.Tests\\InvoicesControllerTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwBgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:03:45.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\MCComputers\\MCComputers.API\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-05T11:29:28.082Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
