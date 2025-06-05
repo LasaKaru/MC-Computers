@@ -1,0 +1,73 @@
+<h2>Generate Customer Invoice</h2>
+
+<div *ngIf="successMessage" class="alert alert-success">{{ successMessage }}</div>
+<div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+
+<form [formGroup]="invoiceForm" (ngSubmit)="onSubmit()">
+  <!-- Transaction Date -->
+  <div class="form-group">
+    <label for="transactionDate">Transaction Date:</label>
+    <input type="date" id="transactionDate" formControlName="transactionDate" class="form-control">
+    <div *ngIf="invoiceForm.get('transactionDate')?.invalid && (invoiceForm.get('transactionDate')?.dirty || invoiceForm.get('transactionDate')?.touched)" class="text-danger">
+      Transaction date is required.
+    </div>
+  </div>
+
+  <!-- Invoice Items -->
+  <div formArrayName="invoiceItems" class="invoice-items-container"> 
+    <h4>Products</h4>
+    <div *ngFor="let item of invoiceItems.controls; let i=index" [formGroupName]="i" class="item-row">
+      <div class="form-group item-field product-name">
+        <label for="productName-{{i}}">Product Name:</label>
+        <input type="text" id="productName-{{i}}" formControlName="productName" class="form-control" placeholder="Product Name">
+        <div *ngIf="getInvoiceItemControl(i, 'productName')?.invalid && (getInvoiceItemControl(i, 'productName')?.dirty || getInvoiceItemControl(i, 'productName')?.touched)" class="text-danger">
+          Product name is required.
+        </div>
+      </div>
+
+      <div class="form-group item-field quantity">
+        <label for="quantity-{{i}}">Quantity:</label>
+        <input type="number" id="quantity-{{i}}" formControlName="quantity" class="form-control" placeholder="Quantity">
+         <div *ngIf="getInvoiceItemControl(i, 'quantity')?.invalid && (getInvoiceItemControl(i, 'quantity')?.dirty || getInvoiceItemControl(i, 'quantity')?.touched)" class="text-danger">
+          Quantity must be at least 1.
+        </div>
+      </div>
+
+      <div class="form-group item-field unit-price">
+        <label for="unitPrice-{{i}}">Unit Price:</label>
+        <input type="number" id="unitPrice-{{i}}" formControlName="unitPrice" class="form-control" placeholder="Unit Price" step="0.01">
+         <div *ngIf="getInvoiceItemControl(i, 'unitPrice')?.invalid && (getInvoiceItemControl(i, 'unitPrice')?.dirty || getInvoiceItemControl(i, 'unitPrice')?.touched)" class="text-danger">
+          Unit price must be greater than 0.
+        </div>
+      </div>
+
+      <button type="button" (click)="removeInvoiceItem(i)" class="btn btn-danger btn-sm" [disabled]="invoiceItems.controls.length <= 1">Remove</button>
+    </div>
+    <button type="button" (click)="addInvoiceItem()" class="btn btn-secondary btn-sm add-product-btn">Add Product</button>
+    <div *ngIf="invoiceItems.invalid && invoiceItems.touched && invoiceItems.errors?.['minlength']" class="text-danger">
+        At least one product item is required.
+    </div>
+  </div>
+
+  <!-- Discount -->
+  <div class="form-group">
+    <label for="discount">Discount Amount:</label>
+    <input type="number" id="discount" formControlName="discount" class="form-control" step="0.01">
+    <div *ngIf="invoiceForm.get('discount')?.invalid && (invoiceForm.get('discount')?.dirty || invoiceForm.get('discount')?.touched)" class="text-danger">
+      Discount must be 0 or greater.
+    </div>
+  </div>
+
+  <!-- Totals Display -->
+  <div class="totals-summary">
+    <p>Subtotal: <strong>{{ subTotal | currency }}</strong></p>
+    <p>Discount: <strong>{{ invoiceForm.get('discount')?.value | currency }}</strong></p>
+    <p>Total Amount: <strong>{{ totalAmount | currency }}</strong></p>
+  </div>
+
+  <div class="submit-btn-container"> 
+    <button type="submit" class="btn btn-primary" [disabled]="invoiceForm.invalid || isLoading">
+      {{ isLoading ? 'Saving...' : 'Generate Invoice' }}
+    </button>
+  </div>
+</form>

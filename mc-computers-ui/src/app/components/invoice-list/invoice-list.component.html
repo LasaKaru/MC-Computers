@@ -1,0 +1,42 @@
+<h2>Invoice List</h2>
+
+<div *ngIf="isLoading && !selectedInvoiceId" class="alert alert-info">Loading invoices...</div> <!-- Modified loading -->
+<div *ngIf="isLoading && selectedInvoiceId" class="alert alert-info">Generating PDF for {{selectedInvoiceId.substring(0,8)}}...</div>
+<div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+
+<button (click)="loadInvoices()" class="btn btn-info refresh-btn mb-3" [disabled]="isLoading">Refresh List</button>
+
+<div *ngIf="!isLoading && invoices.length === 0" class="alert alert-warning">
+  No invoices found.
+</div>
+
+<div class="table-responsive-container" *ngIf="invoices.length > 0">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Transaction Date</th>
+        <th>Total Amount</th>
+        <!-- <th>Discount</th>
+        <th>Balance</th>
+        <th>Items</th> -->
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let invoice of invoices">
+        <td>{{ invoice.id.substring(0,8) }}...</td>
+        <td>{{ invoice.transactionDate | date:'shortDate' }}</td>
+        <td>{{ invoice.totalAmount | currency }}</td>
+        <!-- <td>{{ invoice.discount | currency }}</td>
+        <td>{{ invoice.balanceAmount | currency }}</td>
+        <td>{{ invoice.invoiceItems.length }}</td> -->
+        <td>
+          <button (click)="previewPdf(invoice.id)" class="btn btn-secondary btn-sm" [disabled]="isLoading && selectedInvoiceId === invoice.id">
+            View PDF
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

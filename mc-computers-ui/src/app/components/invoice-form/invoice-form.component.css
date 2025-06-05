@@ -1,0 +1,115 @@
+form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px; 
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px; 
+  font-weight: 500;
+  color: #555;
+}
+
+.invoice-items-container h4 {
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.item-row {
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: flex-end; 
+  gap: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  background-color: #f9f9f9; 
+}
+
+.item-field {
+  flex: 1; 
+  min-width: 150px; 
+}
+
+.item-field.product-name { 
+  flex-basis: 40%; 
+}
+.item-field.quantity,
+.item-field.unit-price {
+  flex-basis: 20%; 
+}
+
+.item-row .btn-danger {
+  margin-left: auto; 
+  align-self: center; 
+  height: fit-content; 
+  padding: 8px 12px; 
+}
+
+
+.add-product-btn {
+  margin-top: 0px; 
+  margin-bottom: 25px;
+}
+
+.totals-summary {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  background-color: #fdfdfd;
+}
+
+.totals-summary p {
+  margin: 8px 0;
+  font-size: 1.05rem;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.totals-summary p strong {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.totals-summary p:last-child strong { 
+  font-size: 1.2em;
+  color: #3498db;
+}
+
+
+.submit-btn-container {
+  margin-top: 30px;
+  text-align: right; 
+}
+
+input[type="date"] {
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .item-row {
+    flex-direction: column;
+    align-items: stretch; 
+  }
+  .item-field {
+    flex-basis: auto; 
+    width: 100%;
+  }
+  .item-row .btn-danger {
+    margin-left: 0; 
+    margin-top: 10px; 
+    width: 100%; 
+  }
+  .submit-btn-container {
+    text-align: left;
+  }
+  .submit-btn-container .btn {
+    width: 100%;
+  }
+}
